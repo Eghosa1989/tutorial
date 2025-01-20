@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="em">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        <!--<link href="#" rel="stylesheet">-->
+        <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body, html {
+            height: 100%;
+        }
+        header{
+            background:teal;
+            height: 100px;
+            width: 100%;
+        }
+        #container{
+            display: flex;
+            background: orange;
+            height: calc(100% - 100px);
+        }
+         nav, aside{
+            flex: 0 0 20%;
+            background:white;
+         }
+         main{
+            flex: 1;
+            background: pink;
+            padding: 10px;
+         }
+         footer{
+         background: teal;
+         height: 50px;
+         }
+         #logo{
+        padding: 15px;
+         }
+         ul li {
+            margin: 25px;
+            padding: 10%;
+         }
+    </style> 
+</head>
+
+<body>
+    <header>
+        <h1 id="logo">MY PORTFOLIO PAGE</h1>
+        </header>
+
+        <div id="container">
+            <nav> 
+        <ul>
+            <li><a href="#">link1</a></li>
+            <li><a href="#">link2</a></li>
+            <li><a href="#">link3</a></li>
+            <li><a href="#">link4</a></li>
+            <li><a href="#">link5</a></li>
+            <li><a href="#">link6</a></li>
+            <li><a href="#">link7</a></li>
+        </ul>
+
+            </nav>
+            <main>this is the main area.
+                </main>
+
+                <aside>this is the aside area.
+                    </aside>
+                </div>
+        <footer>this the footer area.
+            </footer>
+    
+   </body> 
+</html>
